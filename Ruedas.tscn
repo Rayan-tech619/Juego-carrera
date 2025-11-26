@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://cktkp1ltb0tvp"]
+
+[ext_resource type="Texture2D" uid="uid://cagqslakvyey2" path="res://Dodge Ram Rebel TRX/off road racing/car-wheel.png" id="1_bjjik"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cbm6n"]
+radius = 61.008198
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_glqm4"]
+radius = 61.0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CarWheel" type="Sprite2D" parent="."]
+position = Vector2(177, 144)
+texture = ExtResource("1_bjjik")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CarWheel"]
+shape = SubResource("CircleShape2D_cbm6n")
+
+[node name="CarWheel2" type="Sprite2D" parent="."]
+position = Vector2(504, 145)
+texture = ExtResource("1_bjjik")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CarWheel2"]
+shape = SubResource("CircleShape2D_glqm4")
