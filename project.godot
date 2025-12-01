@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Juego 2D"
-run/main_scene="uid://chvqtu1m286lb"
+run/main_scene="uid://dnx2d61ns03hw"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 

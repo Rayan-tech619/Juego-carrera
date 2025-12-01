@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnx2d61ns03hw"]
+
+[ext_resource type="PackedScene" uid="uid://c1serxxj2dyph" path="res://Carroceria.tscn" id="1_ig88b"]
+
+[node name="jugador" instance=ExtResource("1_ig88b")]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." index="3"]
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="StaticBody2D" index="0"]
+polygon = PackedVector2Array(-95, 4, -86, 96, 91, 138, 119, 265, 166, 194, 517, 235, 539, 204, 869, 202, 1022, 284, 1090, 210, 1066, 347, 735, 371, 326, 365, 11, 355, -39, 271)

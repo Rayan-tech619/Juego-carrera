@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsim1f10ka1cp"]
+
+[ext_resource type="PackedScene" uid="uid://c1serxxj2dyph" path="res://Carroceria.tscn" id="1_16k11"]
+
+[node name="jugador" instance=ExtResource("1_16k11")]
+
+[node name="Camera2D" type="Camera2D" parent="." index="2"]
+position = Vector2(502, 90)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." index="4"]
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="StaticBody2D" index="0"]
+position = Vector2(486.32626, 440.35394)
+polygon = PackedVector2Array(-2380.3262, -639.35394, -2095.3262, -566.35394, -1741.3263, -263.35394, -1158.3263, -446.35394, -818.3263, -253.35394, -450.32626, -299.35394, -367.32626, -249.35394, 298.67374, -230.35394, 1171.6737, -377.35394, 1865.6737, -240.35394, 2701.6738, -639.35394, 2908.6738, -148.35394, 1787.6737, 701.64606, -1208.3263, 573.64606, -1971.3263, 554.64606)
